@@ -1,0 +1,32 @@
+Dockeri kohta õppimine ja üles seadmine. 16:30-17:15 ; 21:00-21:20; 8:30-9:00 - paistab tore aga ei usu, et saan õigeks ajaks piisavalt selgeks, et saaksin apache, php, postgres samas konteineris tööle. ... gcc ka. Viskan nurka ja tegelen, kui peaks aega üle jääma. 1h:35min
+
+VirtualBoxis masina üles seadmine ja postgresiga / phppgadminiga tutvumine. 9:30-11:00		1h:30min
+user: ubu
+pass: ubu
+root-pass: ubu
+sftp: enabled
+ssh: enabled
+postgres user: postgres
+postgres pass: postgres
+installed: apache2, php,postgres,phppgadmin,gcc,libpq-dev(postgres library C jaoks),
+
+PHP kriblamine, et suur data sisse saada. 14:30-17:30										3h
+19:00...? 2m kirjet
+
+Otsin lahendust miks ainult ~2million kirjet läbi tuli 19:09-19:30 							20min
+php tegi oma asja 19:56-22:30
+
+sügan kukalt, miks ainult 3miljonit see kord. - uus katse ilma echota, aga arvestades kiirust siis ei muutunud midagi. vaatab kaua läheb
+
+Tegin connectionid väga tihedaks, vaatab kas jõuab 10mil nii. - php - tundub, et teeb kaootilisemalt 00:45- ... 30 tuhat kirjet
+
+proovin siis C-ga, postgresi lisa .. sudo apt-get install libpq-dev
+14:00 - 
+kaevan oma vana koodi-15:39
+finnally ... data sai Cga andmebaasi 16:42-unknown											2h:40min
+kaua tegi aga kõik ilusasti andmebaasis
+
+asun ülesande 1 jallale 13:00-15:30 ; 17:10-19:30 											4h:20min
+asun ülesande 2 kallale 19:50-22:30															2h:40min
+
+Kommentaaride lisamine - 22:45-22:35														50min
